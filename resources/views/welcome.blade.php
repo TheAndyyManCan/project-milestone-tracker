@@ -5,7 +5,7 @@
             <div class="text-8xl text-white fond-bold mt-8">Share Your Progress</div>
             <div class="text-7xl text-white fond-semibold mt-10">Get It Done</div>
             <div class="mt-12">
-                <a href="#" class="p-4 rounded-xl bg-dark-600 font-semibold hover:bg-dark-500">Sign Up</a>
+                <a href="/register" wire:navigate class="p-4 rounded-xl bg-dark-600 font-semibold hover:bg-dark-500">Sign Up</a>
             </div>
         </div>
     </div>
