@@ -18,6 +18,10 @@ export default {
           fontFamily: {
               'figtree':'figtree'
           },
+          backdropFilter: {
+              'none': 'none',
+              'blur': 'blue(20px)'
+          },
       },
   },
   plugins: [],

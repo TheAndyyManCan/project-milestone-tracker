@@ -5,6 +5,7 @@
     <nav class="flex lg:right-0 lg:absolute my-auto p-6">
         <ul class="text-sm text-white flex">
             @auth
+                <x-layout.nav-link link="/projects">Projects</x-layout.nav-link>
                 <form method="POST" action="/logout">
                     @csrf
                     <button type="submit" class="text-sm text-white hover:text-dark-600">Logout</button>
